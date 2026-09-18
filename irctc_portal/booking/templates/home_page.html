@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %} Home Page {% endblock %}
+
+{%block content%}
+<h2>Welcome to IRCTC Railway Reservation System
+<br>Featured Train</h2>
+<p><b>Train Number:</b> {{train_no}}</p>
+<p><b>Train Name:</b> {{train_name}}</p>
+<p><b>From:</b> {{source}}</p>
+<p><b>To:</b> {{destination}}</p>
+<p><b>Departure:</b> {{departure}}</p>
+<p><b>Arrival:</b> {{arrival}}</p>
+{%endblock%}

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %} Booking Confirmation Page {% endblock %}
+
+{%block content%}
+<h2>Booking Confirmation</h2>
+<br>
+<h3>Your ticket has been booked successfully.</h3>
+<br>
+<p><b>Passenger Name:</b> {{passenger_name}}</p>
+<p><b>Train Number:</b> {{train_no}}</p>
+<p><b>Train Name:</b> {{train_name}}</p>
+<p><b>From:</b> {{source}}</p>
+<p><b>To:</b> {{destination}}</p>
+<p><b>Coach:</b> {{coach}}</p>
+<p><b>Berth:</b> {{berth}}</p>
+{%endblock%}
